@@ -1,0 +1,26 @@
+4. 使用说明
+初始化项目：
+
+bash
+# 创建项目目录
+mkdir image_text_to_word_project
+cd image_text_to_word_project
+
+# 创建文件
+touch config.py main.py requirements.txt
+mkdir input_files output
+安装依赖：
+
+bash
+pip install -r requirements.txt
+放入测试数据：
+
+将你的 1.jpg, 1.txt, 2.jpg, 2.txt... 放入 input_files 目录
+
+运行程序：
+
+bash
+python main.py
+查看结果：
+
+生成的 output.docx 会自动保存到 output 目录
